@@ -1,0 +1,29 @@
+.AddTask {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.inputTask, .selectTask{
+    border:solid rgb(245, 169, 46); 
+    border-radius: 8pX;
+    color: black;
+}
+
+.inputTask{
+padding: 10px;
+width: 50em;
+}
+
+::placeholder{
+color:black
+}
+
+.selectTask{
+    padding: 5px;
+}
+
+.buttonTask{
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.filther {
+    display: flex;
+    flex-direction: column;
+    margin-right:18em;
+}
+
+.selectFilther {
+    border:solid rgb(245, 169, 46); 
+    border-radius: 7pX;
+    color: black;
+    padding: 5px;
+}

@@ -1,0 +1,18 @@
+.resourses{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Search {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.inputSearch {
+    width:49em;
+    padding: 1em;
+    border:solid rgb(245, 169, 46); 
+    border-radius: 8pX;;
+}

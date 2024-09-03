@@ -1,0 +1,31 @@
+.task{
+    color: black;
+    margin-top: 5em;
+}
+
+.taskList{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 2em 2em 1em 2em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+
+.button {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.check{
+    background-color: rgb(37, 255, 3);
+}
+ 
+
+.remove{
+    background-color: rgb(252, 66, 66);
+}
