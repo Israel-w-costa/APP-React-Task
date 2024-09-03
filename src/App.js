@@ -10,13 +10,13 @@ function App() {
   const [task, setTask] = useState([
     {
       id: 1,
-      Text: "work",
+      Text: "business meeting",
       category: "work",
       isCompleted: false,
     },
     {
       id: 2,
-      Text: "study",
+      Text: "study React",
       category: "study",
       isCompleted: false,
     },
