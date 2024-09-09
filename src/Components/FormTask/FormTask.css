@@ -1,29 +1,96 @@
 .AddTask {
     display: flex;
-    gap: 10px;
     align-items: center;
-    margin-left: 2em;
+    margin: 4em 12em;
 }
 
-.inputTask, .selectTask{
-    border:solid rgb(245, 169, 46); 
+.inputTask,
+.selectTask {
+    border: solid rgb(245, 169, 46);
     border-radius: 8pX;
     color: black;
 }
 
-.inputTask{
-padding: 10px;
-width: 50em;
+.inputTask {
+    padding: 10px;
+    width: 50em;
+    margin-right: 42px;
 }
 
-::placeholder{
-color:black
+::placeholder {
+    color: black
 }
 
-.selectTask{
+.selectTask {
     padding: 5px;
+    margin-right: 32px;
 }
 
-.buttonTask{
+.buttonTask {
     cursor: pointer;
+    background-color: rgb(69, 203, 69);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+@media (max-width:480px) {
+    .AddTask {
+        margin: 3em 2em;
+    }
+
+    .inputTask {
+        padding: 1.5em;
+        width: 18em;
+        font-size: 1em;
+    }
+
+    .selectTask {
+        padding: 5px;
+        margin-top: 2em;
+        padding: 1.5em;
+        font-size: 1em;
+    }
+
+    .buttonTask {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .AddTask {
+        margin: 1em 4em;
+    }
+
+    .inputTask,
+    .selectTask {
+    border-radius: 1em;
+    margin-bottom: 2.5em;
+}
+
+    .inputTask {
+        padding: 2em;
+        width: 22em;
+        font-size: 1.5em;
+    }
+
+    .selectTask {
+        padding: 1em;
+        margin-right: 32px;
+        font-size: 1.5em;
+
+    }
+
+    .buttonTask {
+        padding: 0.5em;
+        border-radius: 12px;
+        font-size: 1.5em;
+    }
+
+    .options {
+        font-size: 12px;
+    }
+
 }

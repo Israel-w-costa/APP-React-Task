@@ -11,13 +11,13 @@ function App() {
     {
       id: 1,
       Text: "business meeting",
-      category: "work",
+      category: "Work",
       isCompleted: false,
     },
     {
       id: 2,
       Text: "study React",
-      category: "study",
+      category: "Study",
       isCompleted: false,
     },
 

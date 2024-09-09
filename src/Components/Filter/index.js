@@ -4,15 +4,14 @@ function Filter ({filter, setFilter}) {
 
     return (
         <div className="filther">
-            <h2>Filther:</h2>
+            <h2 className="h2filter">Filther:</h2>
             <select className="selectFilther" value={filter} onChange={(e) => setFilter(e.target.value)}>
-                <option value="all"> All</option>
-                <option  value="done">done</option>
-                <option value="to do">to do</option>
+                <option className="options" value="all"> All</option>
+                <option className="options"  value="done">done</option>
+                <option className="options" value="to do">to do</option>
             </select>
             </div>
     )
-    
 }
 
 export default Filter;

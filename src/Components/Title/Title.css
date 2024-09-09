@@ -1,5 +1,19 @@
-.title{
-  text-wrap: none;
+.Title{
+  font-size: 2em;
   text-align: center;
+  width: 100%;
 }
   
+
+@media (max-width: 480px) {
+  .Title{
+    font-size: 3em;
+    margin-right: 2em;
+}}
+
+@media (max-width: 900px) {
+  .Title {
+    font-size: 4em;
+
+  }
+}
