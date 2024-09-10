@@ -5,17 +5,19 @@ import Title from "./Components/Title";
 import List from "./Components/List";
 import Search from "./Components/Search";
 
+import { v4 as uuidv4 } from 'uuid';
+
 
 function App() {
   const [task, setTask] = useState([
     {
-      id: 1,
+      id: uuidv4() ,
       Text: "business meeting",
       category: "Work",
       isCompleted: false,
     },
     {
-      id: 2,
+      id: uuidv4() ,
       Text: "study React",
       category: "Study",
       isCompleted: false,
@@ -28,7 +30,7 @@ function App() {
 
   const addTask = (Text, category)=>{  
    const newTask=   [...task, {
-      id:Math.floor(Math.random()),
+      id:uuidv4(),
       Text,
       category,
       isCompleted:false
