@@ -29,24 +29,6 @@
     background-color: rgb(252, 66, 66);
 }
 
-@media (max-width:480px) {
-    .task{
-        margin: 3em 1em;
-    }
-    .taskList{
-        justify-content: space-between;
-        margin: 2em 1em 1em 1em;
-        padding: 1.5em;
-        white-space:nowrap;
-    }
-    .button {
-        display: flex;
-        align-items: flex-end;
-        margin-top: 1em;
-    }
-        
-}
-
 @media (max-width: 900px) {
     .task{
         margin: 3em 0.5em;
@@ -66,3 +48,24 @@
      margin-bottom: 1em;
     }
   }
+
+@media (max-width:600px) {
+    .task{
+        margin: 3em 1em;
+    }
+    .taskList{
+        justify-content: space-between;
+        margin: 2em 1em 1em 1em;
+        padding: 1.5em;
+        white-space:nowrap;
+        width: 60vw;
+    }
+    .button {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 1em;
+    }
+        
+}
+
+

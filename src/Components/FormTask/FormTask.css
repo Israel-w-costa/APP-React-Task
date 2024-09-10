@@ -33,31 +33,6 @@
     border-radius: 8px;
 }
 
-@media (max-width:480px) {
-    .AddTask {
-        margin: 3em 2em;
-    }
-
-    .inputTask {
-        padding: 1.5em;
-        width: 18em;
-        font-size: 1em;
-    }
-
-    .selectTask {
-        padding: 5px;
-        margin-top: 2em;
-        padding: 1.5em;
-        font-size: 1em;
-    }
-
-    .buttonTask {
-        padding: 15px;
-        border-radius: 8px;
-    }
-
-}
-
 @media (max-width:900px) {
 
     .AddTask {
@@ -94,3 +69,29 @@
     }
 
 }
+
+@media (max-width:600px) {
+    .AddTask {
+        margin: 3em 2em;
+    }
+
+    .inputTask {
+        padding: 1.5em;
+        width: 10em;
+        font-size: 1em;
+    }
+
+    .selectTask {
+        padding: 5px;
+        margin-top: 2em;
+        padding: 1.5em;
+        font-size: 1em;
+    }
+
+    .buttonTask {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+}
+

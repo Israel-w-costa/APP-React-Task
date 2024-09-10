@@ -19,23 +19,6 @@
 }
 
 
-
-@media (max-width:480px) {
-    .resourses{
-        flex-wrap: wrap;
-        gap: 2em;
-        margin: 1em 1em;
-    }
-    .Search {
-        flex-wrap: wrap;
-    }
-    .inputSearch {
-        width:15em;
-        padding: 1.5em;
-        font-size: 1em;
-    }
-}
-
 @media (max-width: 900px) {
     .resourses{
         margin: 0em 2em;
@@ -53,3 +36,22 @@
         font-size: 1.5em;
     }
   }
+
+
+@media (max-width:600px) {
+    .resourses{
+        flex-wrap: wrap;
+        gap: 2em;
+        margin: 1em 1em;
+    }
+    .Search {
+        flex-wrap: wrap;
+    }
+    .inputSearch {
+        width:15em;
+        padding: 1.5em;
+        font-size: 1em;
+    }
+}
+
+
