@@ -26,7 +26,7 @@ function List({ task, setTask, filter, search }) {
                 : filter === "done"
                 ? item.isCompleted
                 : !item.isCompleted
-            ).map(
+            ).filter(item => item.Text.toLowerCase().includes(search.toLowerCase())).map(
                 (item) => (
                     <div className='taskList' key={item.id} style={{ background: item.isCompleted ? "rgb(159, 120, 66)" : "" }}>
                         <div >
